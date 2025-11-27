@@ -1,0 +1,118 @@
+/* --- Header General --- */
+.header {
+    background: #ffffff;
+    border-bottom: 2px solid #e0e0e0;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* --- Contenedor del nav --- */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* --- Logo --- */
+.logo h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2d572c;
+    letter-spacing: 1px;
+}
+
+.logo {
+  display: flex;          
+  align-items: center;   
+  gap: 0.5rem;             
+}
+
+.logo img {
+  width: 100px;          
+  height: auto;
+}
+/* --- Links --- */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #2e2e2e;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+/* Hover */
+.nav-links li a:hover {
+    background: #2d572c;
+    color: #fff;
+}
+
+.footer {
+    background: #ffffff;
+    border-top: 2px solid #e0e0e0;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer p {
+    color: #2e2e2e;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.footer p:hover {
+    color: #2d572c;
+    transition: 0.3s ease;
+}
+
+
+.plant-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.plant-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.plant-card:hover {
+  transform: translateY(-5px);
+}
+
+.plant-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.plant-card h3 {
+  margin: 0.5rem 0 0.2rem;
+}
+
+.plant-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
