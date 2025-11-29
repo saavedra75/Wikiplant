@@ -94,3 +94,42 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.plant-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.btn-details {
+  padding: 0.4rem 0.8rem;
+  background-color: #4CAF50; /* Verde natural */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+
+.btn-details:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.btn-fav {
+  padding: 0.4rem 0.8rem;
+  background-color: #FF6B6B; /* Rojo suave para llamar atención */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-fav:hover {
+  background-color: #ff5252;
+  transform: scale(1.05);
+}

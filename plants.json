@@ -1,0 +1,188 @@
+{"plants": [
+  {
+    "id": 1,
+    "nombre_comun": "Rosa",
+    "nombre_cientifico": "Rosa spp.",
+    "descripcion": "Planta ornamental muy apreciada por sus flores aromáticas y coloridas.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Rose_flower.jpg",
+    "categoria": "ornamental"
+  },
+  {
+    "id": 2,
+    "nombre_comun": "Lavanda",
+    "nombre_cientifico": "Lavandula angustifolia",
+    "descripcion": "Hierba aromática utilizada en perfumería y como planta medicinal.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Single_lavender_flower02.jpg",
+    "categoria": "medicinal"
+  },
+  {
+    "id": 3,
+    "nombre_comun": "Aloe vera",
+    "nombre_cientifico": "Aloe vera",
+    "descripcion": "Suculenta conocida por sus propiedades medicinales y cosméticas.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Aloe_vera.jpg",
+    "categoria": "suculenta"
+  },
+  {
+    "id": 4,
+    "nombre_comun": "Girasol",
+    "nombre_cientifico": "Helianthus annuus",
+    "descripcion": "Planta anual cultivada por sus semillas comestibles y su aceite.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sunflower_sky_backdrop.jpg",
+    "categoria": "alimenticia"
+  },
+  {
+    "id": 5,
+    "nombre_comun": "Helecho común",
+    "nombre_cientifico": "Pteridium aquilinum",
+    "descripcion": "Planta sin flores que se reproduce por esporas, típica de zonas húmedas.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Pteridium_aquilinum.jpg",
+    "categoria": "ornamental"
+  },
+  {
+    "id": 6,
+    "nombre_comun": "Menta",
+    "nombre_cientifico": "Mentha spicata",
+    "descripcion": "Hierba aromática usada en gastronomía y medicina tradicional.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/2/25/Mentha_spicata.jpg",
+    "categoria": "medicinal"
+  },
+  {
+    "id": 7,
+    "nombre_comun": "Orquídea",
+    "nombre_cientifico": "Orchidaceae",
+    "descripcion": "Plantas ornamentales con flores muy variadas y exóticas.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Orchid_flower.jpg",
+    "categoria": "ornamental"
+  },
+  {
+    "id": 8,
+    "nombre_comun": "Tomillo",
+    "nombre_cientifico": "Thymus vulgaris",
+    "descripcion": "Planta aromática mediterránea usada en cocina y remedios naturales.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Thymus_vulgaris.jpg",
+    "categoria": "medicinal"
+  },
+  {
+    "id": 9,
+    "nombre_comun": "Olivo",
+    "nombre_cientifico": "Olea europaea",
+    "descripcion": "Árbol mediterráneo cultivado por sus aceitunas y aceite.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/94/Olive_tree.jpg",
+    "categoria": "alimenticia"
+  },
+  {
+    "id": 11,
+    "nombre_comun": "Cerezo",
+    "nombre_cientifico": "Prunus avium",
+    "descripcion": "Árbol frutal cultivado por sus cerezas dulces y apreciado también como ornamental.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Prunus_avium_tree.jpg",
+    "categoria": "alimenticia"
+},
+{
+  "id": 12,
+  "nombre_comun": "Higuera",
+  "nombre_cientifico": "Ficus carica",
+  "descripcion": "Árbol mediterráneo que produce higos comestibles, muy valorados en gastronomía.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Ficus_carica_tree.jpg",
+  "categoria": "alimenticia"
+},
+{
+  "id": 13,
+  "nombre_comun": "Jazmín",
+  "nombre_cientifico": "Jasminum officinale",
+  "descripcion": "Planta trepadora ornamental famosa por sus flores blancas muy fragantes.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Jasminum_fruticans_FlowersCloseup_2009May10_SierraMadrona.jpg",
+  "categoria": "ornamental"
+},
+{
+  "id": 14,
+  "nombre_comun": "Romero",
+  "nombre_cientifico": "Rosmarinus officinalis",
+  "descripcion": "Planta aromática mediterránea usada en cocina y con propiedades medicinales.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Rosmarinus_officinalis.jpg",
+  "categoria": "medicinal"
+},
+{
+  "id": 15,
+  "nombre_comun": "Tulipán",
+  "nombre_cientifico": "Tulipa gesneriana",
+  "descripcion": "Planta bulbosa ornamental muy popular por sus flores de vivos colores.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tulip_flower.jpg",
+  "categoria": "ornamental"
+},
+{
+  "id": 16,
+  "nombre_comun": "Magnolia",
+  "nombre_cientifico": "Magnolia grandiflora",
+  "descripcion": "Árbol ornamental con grandes flores blancas muy fragantes, típico de climas templados.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Magnolia_grandiflora_flower.jpg",
+  "categoria": "ornamental"
+},
+{
+  "id": 17,
+  "nombre_comun": "Albahaca",
+  "nombre_cientifico": "Ocimum basilicum",
+  "descripcion": "Hierba aromática usada en cocina mediterránea y asiática, con propiedades medicinales.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ocimum_basilicum.jpg",
+  "categoria": "medicinal"
+},
+{
+  "id": 18,
+  "nombre_comun": "Bambú",
+  "nombre_cientifico": "Bambusoideae",
+  "descripcion": "Planta de tallos leñosos muy resistentes, utilizada en construcción y decoración.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Bamboo_forest.jpg",
+  "categoria": "ornamental"
+},
+{
+  "id": 19,
+  "nombre_comun": "Diente de león",
+  "nombre_cientifico": "Taraxacum officinale",
+  "descripcion": "Planta silvestre conocida por sus flores amarillas y usos medicinales tradicionales.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/90/Taraxacum_officinale_flower.jpg",
+  "categoria": "medicinal"
+},
+{
+  "id": 20,
+  "nombre_comun": "Salvia",
+  "nombre_cientifico": "Salvia officinalis",
+  "descripcion": "Planta aromática y medicinal utilizada en cocina y remedios naturales.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Salvia_officinalis.jpg",
+  "categoria": "medicinal"
+},
+{
+  "id": 21,
+  "nombre_comun": "Café",
+  "nombre_cientifico": "Coffea arabica",
+  "descripcion": "Arbusto tropical cultivado por sus semillas, que se tuestan para preparar café.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/30/Coffea_arabica.jpg",
+  "categoria": "alimenticia"
+},
+{
+  "id": 22,
+  "nombre_comun": "Hibisco",
+  "nombre_cientifico": "Hibiscus rosa-sinensis",
+  "descripcion": "Planta ornamental tropical con flores grandes y coloridas, también usada en infusiones.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/39/Hibiscus_Hibiscus_moscheutos_NYBG.jpg",
+  "categoria": "ornamental"
+},
+{
+  "id": 23,
+  "nombre_comun": "Papaya",
+  "nombre_cientifico": "Carica papaya",
+  "descripcion": "Planta tropical que produce frutos dulces y nutritivos, ricos en vitaminas.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/91/Carica_papaya.jpg",
+  "categoria": "alimenticia"
+},
+{
+  "id": 24,
+  "nombre_comun": "Caña de azúcar",
+  "nombre_cientifico": "Saccharum officinarum",
+  "descripcion": "Planta tropical cultivada para la producción de azúcar y otros derivados.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/72/Starr_030523-0142_Saccharum_officinarum.jpg",
+  "categoria": "alimenticia"
+}
+
+]
+}

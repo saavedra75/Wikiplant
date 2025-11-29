@@ -12,4 +12,6 @@ ${Footer()}
 
 router();
 
+// Escuchamos cambios de hash para navegación SPA
 window.addEventListener('hashchange', router);
+

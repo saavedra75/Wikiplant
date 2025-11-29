@@ -116,3 +116,238 @@
   font-size: 0.9rem;
   color: #555;
 }
+
+
+
+.plant-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.btn-details {
+  padding: 0.4rem 0.8rem;
+  background-color: #4CAF50; /* Verde natural */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+
+.btn-details:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.btn-fav {
+  padding: 0.4rem 0.8rem;
+  background-color: #f5e109; /* Rojo suave para llamar atención */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-fav:hover {
+  background-color: #f5e109;
+  transform: scale(1.05);
+}
+
+.plant-detail-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.plant-detail-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.plant-detail-info h2 {
+    font-size: 2rem;
+    color: #2f4f2f;
+}
+
+.plant-detail-info p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: #444;
+}
+
+.plant-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.plant-tag {
+    background: #e6f4ea;
+    color: #2e7d32;
+    padding: 6px 12px;
+    font-size: .9rem;
+    border-radius: 20px;
+    border: 1px solid #cce7d0;
+}
+
+.plant-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-back,
+.btn-fav {
+    cursor: pointer;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: .2s ease;
+}
+
+.btn-back {
+    background: #cfe3cf;
+    color: #274e27;
+}
+
+.btn-back:hover {
+    background: #b7d3b7;
+}
+
+.plant-detail-image {
+    width: 280px;   
+    height: 280px;     
+    border-radius: 18px;
+    object-fit: cover;  
+    flex-shrink: 0;    
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+
+.not-found {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found-box {
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 18px;
+    text-align: center;
+    max-width: 420px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.not-found-box h1 {
+    font-size: 90px;
+    margin: 0;
+    color: #2d572c;
+    font-weight: 700;
+}
+
+.not-found-box h2 {
+    font-size: 1.7rem;
+    margin: 10px;
+    color: #3a3a3a;
+}
+
+.not-found-box p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+#btn-go-home {
+    background: #2d572c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+#btn-go-home:hover {
+    background: #244a24;
+    transform: scale(1.05);
+}
+
+
+.home-section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.home-title {
+    font-size: 2rem;
+    color: #2d572c;
+    margin-bottom: 0.5rem;
+}
+
+.home-subtitle {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.plant-list-section {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.plant-list-section h2 {
+    font-size: 1.8rem;
+    color: #2d572c;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.plant-list-section label {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #444;
+}
+
+#categoryFilter {
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.2s ease;
+    margin-bottom: 20px;
+}
+
+#categoryFilter:hover,
+#categoryFilter:focus {
+    border-color: #2d572c;
+    outline: none;
+}
+
+.plant-list-section .plant-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+}

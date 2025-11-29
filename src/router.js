@@ -7,20 +7,29 @@ import NotFound from "./views/NotFound.js";
 export function router() {
     const view = document.getElementById('view');
 
-    // Remove the # and convert to lowercase
-    const route = location.hash.slice(1).toLowerCase() || "/";
+    // Quitar # y poner en minúsculas
+    const hash = location.hash.slice(1).toLowerCase() || "/";
 
-    // Route table 
+    // Rutas normales
     const routes = {
         "/": Home,
         "/plantlist": PlantList,
-        "/favourites": Favourites,
-        "/plantdetail": PlantDetail,
-        "/notfound": NotFound
+        "/favourites": Favourites
     };
 
-    const screen = routes[route] || NotFound;
-    view.innerHTML = screen();
+    let screen;
+
+    //  si es /plantdetail/:id
+    if (hash.startsWith("/plantdetail/")) {
+        screen = () => PlantDetail(hash.split("/")[2]); // pasar id
+    }
+    else {
+        screen = routes[hash] || NotFound;
+    }
+
+    Promise.resolve(screen()).then(html => {
+        view.innerHTML = html;
+    });
 }
 
 export default router;
