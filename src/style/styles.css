@@ -351,3 +351,14 @@
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 1rem;
 }
+
+.btn-remove {
+    margin-top: 3px;
+    background: #2d572c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease;}

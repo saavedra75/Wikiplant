@@ -3,7 +3,7 @@ export default function Favourites() {
   const favs = JSON.parse(localStorage.getItem('favorites')) || [];
 
   if (favs.length === 0) {
-    return `<p>No tienes plantas favoritas aún.</p>`;
+    return `<p>You have no favourites plants yet.</p>`;
   }
 
   const list = favs.map(plant => `
@@ -12,7 +12,7 @@ export default function Favourites() {
       <h3>${plant.nombre_comun}</h3>
       <p><em>${plant.nombre_cientifico}</em></p>
       <p class="plant-category">${plant.categoria}</p>
-      <button class="btn-remove" data-id="${plant.id}">Quitar de favoritos</button>
+      <button class="btn-remove" data-id="${plant.id}">Remove</button>
     </div>
   `).join('');
 
@@ -37,7 +37,7 @@ function removeFromFavorites(id) {
   let favs = JSON.parse(localStorage.getItem('favorites')) || [];
   favs = favs.filter(p => p.id != id);
   localStorage.setItem('favorites', JSON.stringify(favs));
-  alert('Planta eliminada de favoritos');
+  alert('Plant removed from favourites.');
   // Volvemos a renderizar la vista
   location.reload();
 }
